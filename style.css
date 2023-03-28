@@ -1,0 +1,81 @@
+:root{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    width: 128rem;
+    height: 72rem;
+    background-image: url('./assets/mountains-universe-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    gap: 3.2rem;
+    width: 128rem;
+    height: 10rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.17rem;
+}
+
+.text{
+    width: 65rem;
+    height: 20rem;
+    margin-top: 12.5rem;
+    margin-left: 10rem;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.text h1{
+    font-size: 4.8rem;
+}
+
+.text p{
+    font-size: 1.8rem;
+    height: 20rem;
+    line-height: 29px;
+}
+
+.inicio{
+    position: absolute;
+    width: 42rem;
+    height: 6rem;
+    left: 44rem;
+    top: 24.4rem;
+    font-weight: 70rem;
+    font-size: 5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+p, h1, a{
+    color: #E1E1E6;    
+}
+
+button{
+    -webkit-appearance: none;
+    cursor: pointer;
+    border:2px solid white;
+    color: #E1E1E6;
+    background-color: transparent;
+    padding: 1.2rem, 3.2rem;
+    width: 19.5rem;
+    height: 5rem;   
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    position: absolute;
+    left: 54.2rem;
+    top: 37.8rem;
+}
