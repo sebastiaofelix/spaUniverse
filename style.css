@@ -1,15 +1,24 @@
 :root{
     box-sizing: border-box;
     font-size: 62.5%;
+    --bgImg: url('./assets/mountains-universe-1.png');
 }
 
 body{
     width: 128rem;
     height: 72rem;
-    background-image: url('./assets/mountains-universe-1.png');
     background-size: contain;
+    background-image: url('./assets/mountains-universe-1.png');
     background-repeat: no-repeat;
     position: relative;
+}
+
+body.universo{
+    background-image: url(/assets/mountains-universe02.png);
+}
+
+body.explore{
+    background-image: url(/assets/mountains-universe-3.png);
 }
 
 nav{
@@ -78,4 +87,11 @@ button{
     position: absolute;
     left: 54.2rem;
     top: 37.8rem;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: white;
+    color: #02799D;
+    
 }

@@ -12,6 +12,9 @@ export class Pages {
         window.history.pushState({}, "", event.target.href)
 
         this.handle()
+
+        this.changeBackgroundImg()
+
     }
 
     handle(){
@@ -23,8 +26,26 @@ export class Pages {
             document.querySelector('#page').innerHTML = html
         })
     }
+    
+    changeBackgroundImg(){
+        const { pathname } = window.location;
+        const { body } = document;
+        
+        switch (pathname) {
+            case '/exploracao':
+              body.className = 'explore';
+              break;
+      
+            case '/oUniverso':
+              body.className = 'universo';
+              break;
+      
+            default:
+              body.className = '';
+              break;
 
-   
+        
+            }
+        }
 
 }
-
