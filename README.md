@@ -4,8 +4,13 @@ Primeneiro desafio do stage 6, o projeto é um spa basico onde ao clicar no menu
 foram abordados as seguintes informações neste desafio:
 
   Programação orientada a objetos (POO)
+  
   Classes e heranças
+  
   Criando HTML pelo JavaScript
+  
   A importancia da imutabilidade
+  
   Conhecendo o localStorage
+  
   Métodos estáticos e promises
